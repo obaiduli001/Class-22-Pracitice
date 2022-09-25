@@ -1,0 +1,92 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Alex Brush', cursive;
+       font-family: 'Work Sans', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: 56px;
+}
+
+.navbar-brand span {
+    display: inline-block;
+    font-weight: 200;
+    font-size: 36px;
+
+    letter-spacing: 4px;
+}
+
+.manu {
+    /* margin-left: 113px; */
+    font-size: 16px;
+    font-weight: 300;
+}
+/* This is slider section  */
+.slider-section{
+    background: url("/img/mbr-10.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    z-index: 111;
+}
+
+.slider-section::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.37);
+    z-index: -1;
+}
+
+.slider-caption{
+    z-index: 1;
+}
+.slider-section h4 {
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 42px;
+}
+.slider-section h1 {
+    font-size: 59px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.jon-btn {
+    padding: 15px;
+}
+.slider-btn {
+    padding: 9px 67px;
+    font-size: 28px;
+    background: #5ba533;
+    font-weight: 700;
+}
+
+.btn-secondary {
+
+    --bs-btn-border-color: #e2e9ef;
+    --bs-btn-hover-bg: #080808;
+}
+
+
+        /* About Section  */
+
+.about-section{
+    background: #F7F9FF;
+}
+
+.about-section h1 {
+    font-size: 45px;
+    margin-top: 170px;
+    margin-bottom: 21px;
+}
+.about-section .lead {
+    font-size: 27px;
+    line-height: 2.7rem;
+}
